@@ -1,0 +1,132 @@
+
+        .square {
+            border: 1px solid seashell; /*garis disekeliling kotak*/
+            border-radius: 20px;  /*membuat sudut kotak menjadi melengkung*/
+            padding: 10px; /*jarak antara isi kotak dengan garis kotak*/
+            margin: 20px auto; /*jarak antara kotak dengan elemen di luar*/
+            background: seashell; /*warna latar belakang kotak*/
+            box-shadow: 2px   1px   3px  seashell;
+
+        }
+        .square h1{
+            text-align: center;
+            font-family: Perpetua Titling MT;
+            background: seashell;
+        }
+
+        .search section{
+            margin: 20px ;
+            margin-top: 10px;
+            border-radius: 8px;
+            background-color: seashell;
+        }
+
+        .add-section {
+            margin-left: 1120px;
+            margin-top: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .add-section button {
+            padding: 10px;
+            border: 1px solid seashell;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .search input{
+            padding: 10px;
+            border: 1px solid seashell;
+            border-radius: 8px;
+        }
+
+        .search button{
+            padding: 10px;
+            border: 1px solid seashell;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse; /*menggabungkan garis kotak yang bersebelahan menjadi satu garis*/
+            margin-top: 20px auto;
+        }
+
+        th, td { /*membuat garis kotak di sekeliling isi kotak*/
+            border: 1px solid #e2e2df;
+            padding: 8px; /*jarak antara isi kotak dengan garis kotak*/
+            text-align: left;
+        }
+
+        th{
+            background-color: seashell; /*warna latar belakang kolom*/
+        }
+
+        .edit-button {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            background-color: paleturquoise;
+            cursor: pointer;
+        }
+
+        .button{
+            background-color: seashell;
+            cursor: pointer;
+            display: inline-block;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            
+        }
+        
+        
+        
+        .square {
+            border: 1px solid seashell; /*garis disekeliling kotak*/
+            border-radius: 20px;  /*membuat sudut kotak menjadi melengkung*/
+            padding: 10px; /*jarak antara isi kotak dengan garis kotak*/
+            margin: 20px auto; /*jarak antara kotak dengan elemen di luar*/
+            background: seashell; /*warna latar belakang kotak*/
+            box-shadow: 2px   1px   3px   rgba(0,0,0,0.06)
+
+        }
+        .square h1{
+            text-align: center;
+            font-family: Perpetua Titling MT;
+            background-color: seashell;
+        }
+
+        .form-section {
+            width : 200px;
+            margin: 20px;
+            margin-top: 10px;
+            padding: 20px;
+            border: 1px solid #e2e2df; /*garis disekeliling kotak*/
+            border-radius: 8px;  /*membuat sudut kotak menjadi melengkung*/
+        }
+
+        .form-section input{
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        .form-section button{
+            padding: 10px;
+            border: 1px solid lightgray;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .form-section select{
+            padding: 10px; /*jarak antara isi kotak dengan garis kotak*/
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+    
